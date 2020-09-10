@@ -21,7 +21,7 @@ public class Main {
 		age = 35;
 		System.out.println("でも本当は" + age + "なんです");
 
-	    // finalをつけ書き換えを防止
+		// finalをつけ書き換えを防止
 		final double PI = 3.14;
 		int pie = 5;
 		System.out.println("半径" + pie + "cmのパイの面積は、");
