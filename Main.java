@@ -14,12 +14,12 @@ public class Main {
 		System.out.println("答えは" + 64);
 
 		// 変数宣言
-	    int age;
-	    age = 30;
-	    System.out.println("私の年齢は"+ age + "です");
-	    // 変数の上書き
-	    age = 35;
-	    System.out.println("でも本当は" + age + "なんです");
+		int age;
+		age = 30;
+		System.out.println("私の年齢は"+ age + "です");
+		// 変数の上書き
+		age = 35;
+		System.out.println("でも本当は" + age + "なんです");
 
 	    // finalをつけ書き換えを防止
 		final double PI = 3.14;
@@ -30,5 +30,18 @@ public class Main {
 		//PI = 10;
 		//System.out.println("半径" + pie + "cmのパイの面積は、");
 		//System.out.println(pie * pie * PI);
+
+		//練習問題1-2
+		int a = 3;
+		int b = 5;
+		int c = a * b;
+		System.out.println("長方形の面積は" + a * b + "です");
+
+		//練習問題1-3
+		boolean result = true;
+		char favoriteCharacter = '駆';
+		double pi = 3.14;
+		long number = 3.141592658L;
+		String sentence = "ミナトの攻撃！";
 	}
 }
