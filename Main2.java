@@ -42,6 +42,10 @@ public class Main {
 		int n = Integer.parseInt(age);
 		System.out.println("あなたは来年、" + (n + 1) + "歳になりますね");
 
+		// ランダムな数を生成する命令
+		int r = new java.util.Random().nextInt(90);
+		System.out.println("あなたはたぶん" + r + "歳ですね？");
+
 		// キーボードから入力を受け付ける命令
 		System.out.println("あなたの名前を入力してください。");
 		String name = new java.util.Scanner(System.in).nextLine();
