@@ -36,5 +36,17 @@ public class Main {
 		int f = 3;
 		int m = Math.max(e, f);
 		System.out.println("比較実験：" + e + "と" + f + "とで大きい方は・・・" + m);
+
+		// String型をint型に変換する命令
+		String age = "31";
+		int n = Integer.parseInt(age);
+		System.out.println("あなたは来年、" + (n + 1) + "歳になりますね");
+
+		// キーボードから入力を受け付ける命令
+		System.out.println("あなたの名前を入力してください。");
+		String name = new java.util.Scanner(System.in).nextLine();
+		System.out.println("あなたの年齢を入力してください。");
+		int age = new java.util.Scanner(System.in).nextInt();
+		System.out.println("ようこそ、" + age + "歳の" + name + "さん");
 	}
 }
