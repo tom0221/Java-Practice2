@@ -43,5 +43,13 @@ public class Main {
 		double pi = 3.14;
 		long number = 3.141592658L;
 		String sentence = "ミナトの攻撃！";
+
+		// 算術演算子
+        System.out.println(3 + 5);
+        System.out.println(10 - 3);
+        System.out.println(3 * 2);
+        System.out.println(3.2 / 2);
+        System.out.println(9 / 2);
+        System.out.println(9 % 2);
 	}
 }

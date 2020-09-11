@@ -9,5 +9,11 @@ public class Main {
 
         // エスケープシーケンスを用いた表現
 		System.out.println("私の好きな記号は二重引用符¥"です");
+
+		// インクリメント演算子
+        int c;
+        c = 100;
+        c++;
+        System.out.println(c);
 	}
 }
