@@ -100,11 +100,11 @@ public class Main{
 		for (int g = 0; i < 10;){...}
 
 		// ネストされた制御構造(分岐)
-        if (height > 170) {
-            if (eyesight > 1.0) {
-                System.out.println("合格");
-            }
-        }
+		if (height > 170) {
+		    if (eyesight > 1.0) {
+		        System.out.println("合格");
+		    }
+		}
 
 		// ネストされた制御構造(繰り返し)
 		do {
@@ -138,5 +138,29 @@ public class Main{
 		    }
 		    System.out.println(i);
 		}
+
+		// 練習3-1
+		weight == 60
+		(age1 + age2) * 2 > 60
+		age / 2 == 1
+		name.equals ("湊")
+
+
+		// 練習3-3
+		int isHungry = 1;
+		String food = "唐揚げ";
+
+		System.out.println("こんにちは");
+		    if (isHungry == 0) {
+		        System.out.println("お腹がいっぱいです");
+		    } else {
+		        System.out.println("はらぺこです");
+		    }
+
+		    if (isHungry == 1) {
+		        System.out.println(food + "をいただきます");
+		    }
+
+		System.out.println("ごちそうさまでした");
 	}
 }
