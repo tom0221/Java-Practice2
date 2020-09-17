@@ -8,7 +8,7 @@ public class Main {
         hello("朝香");
         hello("菅原");
         System.out.println("メソッドの呼び出しが終わりました");
-    }
+	}
 
 	public static void hello(String name) {
 		System.out.println("湊さん、こんにちは");
@@ -27,4 +27,17 @@ public class Main {
 		int ans = x + y;
 		System.out.println(x + "+" + y + "=" + ans);
 	}
+
+	// コード5-5 ここまで
+
+	// コード5-7 戻り値の例
+	public static int add(int x, int y) {
+		int ans = x + y;
+		return ans;//return文はメソッドの終了も含む
+	}
+
+	public static void main(String[] args) {
+		int ans = add(100, 10);//ここでaddメソッドへ移動
+		System.out.println("100 + 10 = " + ans);
+    }
 }
