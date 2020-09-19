@@ -90,5 +90,36 @@ public class Main {
 	    System.out.println("10+20+30=" + add(10, 20,30));
 	}
 
+	// コード5-13 同じ配列を参照しているかの確認
+	public static void incArray(int[] array) {
+	    for (int i = 0; i < array.length; i++) {
+	        array[i]++;
+	    }
+	}
+
+	public static void main(String[] args) {
+	    int[] array = {1, 2, 3};
+	    incArray(array);
+	    for (int = i: array) {
+	        System.out.println(i);
+	    }
+	}
+
+	// コード5-14 戻り値が配列の場合
+	public static int[] makeArray(int size) {
+	    int[] newArray = new int[size];
+	    for (int i = 0; i < newArray.length; i++) {
+	        newArray[i] = i;
+	    }
+	    return newArray;
+	}
+
+	public static void main(String[] args) {
+	    int[] array = makeArray(3);
+	    for (int i : array) {
+	        System.out.println(i);
+	    }
+	}
+
 
 }
