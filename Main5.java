@@ -39,7 +39,7 @@ public class Main {
 	public static void main(String[] args) {
 		int ans = add(100, 10);//ここでaddメソッドへ移動
 		System.out.println("100 + 10 = " + ans);
-    }
+	}
 
     // コード5-7 ここまで
 
