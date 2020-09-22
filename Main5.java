@@ -90,6 +90,18 @@ public class Main {
 	    System.out.println("10+20+30=" + add(10, 20,30));
 	}
 
+	// コード5-12 引数に配列を受け取るメソッドの利用
+	public static void printArray(int[] array) {
+		for (int element : array) {
+			System.out.println(element);
+		}
+	}
+
+	public static void main(String[] args) {
+		int[] array = {1, 2, 3};
+		printArray(array);//配列を渡す
+	}
+
 	// コード5-13 同じ配列を参照しているかの確認
 	public static void incArray(int[] array) {
 	    for (int i = 0; i < array.length; i++) {
