@@ -133,5 +133,35 @@ public class Main {
 	    }
 	}
 
+	// 練習5-1
+	public static void main(String[] args) {
+	    introduceOneself();
+	}
+
+	public static void introduceOneself() {
+	    String name = "湊";
+	    int age = 19;
+	    double height = 162.2;
+	    char zodiac = '申';
+	    System.out.println("私の名前は" + name + "です");
+	    System.out.println("年齢は" + age + "です");
+	    System.out.println("身長は" + height + "です");
+	    System.out.println("十二支は" + zodiac + "です");
+	}
+
+	// 練習5-2
+	public static void main(String[] args) {
+	    String title = "お誘い";
+	    String address = "use@xxx.com";
+	    String text = "今度遊びませんか？";
+	    email(title, address, text);
+	}
+
+	public static void email(String title, String address, String text) {
+	    System.out.println(address + "に以下のメールを送信しました。");
+	    System.out.println("件名：無題");
+	    System.out.println("本文：" + text);
+	}
+
 
 }
