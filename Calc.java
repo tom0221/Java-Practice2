@@ -1,4 +1,6 @@
 // 第6章 複数クラスを用いた開発　〜コード6_4まで
+// package化する場合、下一文追加
+package calcapp.main;
 public class Calc {
 	public static void main(String[] args) {
 		int a = 10; int b = 2;
