@@ -202,5 +202,15 @@ public class Main {
 	    return area;
     }
 
+    // コード6-10 数の大きい順に並び替える処理(API使用)
+	public static void main(String[] args) {
+	    int[] heights = {172, 149, 152, 191, 155};
+	    java.util.Arrays.sort(heights);
+	    for (int h : heights) {
+	        System.out.println(h);
+	    }
+	}
+
+
 
 }

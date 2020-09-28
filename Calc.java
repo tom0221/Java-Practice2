@@ -9,6 +9,7 @@ public class Calc {
 		int total = CalcLogic.tasu(a, b);//CalcLogic.javaのtasuメソッドを呼び出す
 		int delta = calcapp.logics.CalcLogic.hiku(a, b);//package指定の場合は前につける
 		System.out.println("足すと" + total +"、引くと" + delta);
+
 	}
 
 	// 以下の計算メソッドは、CalcLogic.javaへ移動
