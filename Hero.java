@@ -3,6 +3,12 @@ public class Hero {
 	// 属性を宣言するにはクラスブロックの中に変数宣言の記述をする
 	String name;//名前の宣言
 	int hp;//HPの宣言
+	Sword sword;//勇者が持っている剣の情報をクラス型変数で宣言
+
+	public void attack() {
+		System.out.println(this.name + "は攻撃した！");
+		System.out.println("敵に5ポイントのダメージを与えた！");
+	}
 
 
 	public void sleep() {
