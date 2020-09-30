@@ -19,8 +19,11 @@ public class Hero {
 
 	// 引数を受け取らないコンストラクタも作成する②
 	punlic Hero() {
-		this.hp = 100;
-		this.name = "ダミー";
+		// this.hp = 100;
+		// this.name = "ダミー";  //ダミーの名前を設定する
+
+		//①のコンストラクタを利用する為に呼び出す方法
+		this("ダミー");
 	}
 
 
