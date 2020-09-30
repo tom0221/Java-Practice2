@@ -2,9 +2,9 @@
 public class Main {
 	public static void main(String[] args) {
 		// 一人目
-		Hero h1 = new Hero();
+		Hero h1 = new Hero("ミナト");
 		h1.hp = 100;
-		h1.name = "ミナト";
+		// h1.name = "ミナト";
 		h.hp = 100;
 
 		// 二人目
@@ -12,10 +12,12 @@ public class Main {
 		h2.name = "アサカ";
 		h2.hp = 100;
 
-		//Wizardの作る
+		//Wizardを作る
 		Wizard w = new Wizard();
 		w.name = "スガワラ";
 		w.hp = 50;
+
+		//ここからがメインプログラム
 		w.heal(h1);  //h1ミナトを回復させる
 		w.heal(h2);  //h2アサカを回復させる
 		w.heal(h2);  //h2アサカを回復させる
