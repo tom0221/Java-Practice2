@@ -1,4 +1,4 @@
-// コード9-10
+// コード10-2
 public class Hero {
 	String name;
 	int hp;
