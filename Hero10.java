@@ -10,7 +10,14 @@ public class Hero {
 		System.out.println("5ポイントのダメージをあたえた！");
 	}
 
-	// 逃げる
+	// finalがついているfinalメソッドは子クラスでオーバーライド(上書き禁止)になる
+	public void final slip() {
+		this.hp -= 5;
+		System.out.println(this.name + "は転んだ！");
+		Syetem.out.println("5ポイントのダメージ！);
+	}
+
+	// 逃げる(finalはついてないので、runメソッドは子クラスでオーバーライド可能)
 	public void run() {
 		System.out.println(this.name + "は逃げ出した！");
 	}
