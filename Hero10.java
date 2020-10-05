@@ -22,5 +22,4 @@ public class Hero {
 		System.out.println(this.name + "は逃げ出した！");
 	}
 
-	
 }
