@@ -14,8 +14,8 @@ public class SuperHero extends Hero { //基本的にはHeroと同じという意
 	}
 
 	// コード10-5 SuperHeroクラスにrun()を再定義する(上書きの扱い、オーバーライド)
-	public void run() {
-		System.out.println(this.name + "は撤退した！");
-	}
+	// public void run() {
+	// 	System.out.println(this.name + "は撤退した！");
+	// }
 
 }
