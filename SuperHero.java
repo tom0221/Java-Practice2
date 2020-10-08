@@ -1,6 +1,7 @@
 // コード10-3 Hero10クラスを継承してSuperHeroを作成する
-public class SuperHero extends Hero { //基本的にはHeroと同じという意味！
+public class SuperHero extends Hero { //extendが基本的にはHeroと同じという意味！
 	boolean flying; // flying追加
+
 	// ①追加したfly()
 	public void fly() {
 		this.flying = true;
@@ -14,8 +15,8 @@ public class SuperHero extends Hero { //基本的にはHeroと同じという意
 	}
 
 	// コード10-5 SuperHeroクラスにrun()を再定義する(上書きの扱い、オーバーライド)
-	// public void run() {
-	// 	System.out.println(this.name + "は撤退した！");
-	// }
+	public void run() {
+		System.out.println(this.name + "は撤退した！"); //逃げ出したから撤退したに上書き
+	}
 
 }
