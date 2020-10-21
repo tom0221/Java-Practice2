@@ -4,7 +4,7 @@ public class Weapon extends Item {
 	// super();
 
 	// 内部インスタンスのコンストラクタ引数を指定する
-	public Weapon() {
-		super("ななしの剣");
-	}
+	// public Weapon() {
+	// 	super("ななしの剣");
+	// }
 }
