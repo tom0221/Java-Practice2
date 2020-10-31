@@ -16,12 +16,5 @@ public class Main {
 		h.slip();//転べ
 		h.sit(25);//25秒座れ
 
-		Matango m1 = new Matango();// お化けキノコAを生成し、初期化
-		m1.hp = 50;
-		m1.suffix = 'A';
 
-		Matango m2 = new Matango();// お化けキノコBを生成し、初期化
-		m2.hp = 48;
-		m2.suffix = 'B';
-	}
 }
