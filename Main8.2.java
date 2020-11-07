@@ -21,5 +21,9 @@ public class Main {
 		m1.hp = 50;
 		m1.suffix = 'A';
 
+		Matango m2 = new Matango();// お化けキノコBを生成し、初期化
+		m2.hp = 48;
+		m2.suffix = 'B';
+
 	}
 }
