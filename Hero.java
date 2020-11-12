@@ -55,7 +55,4 @@ public class Hero {
 
 	}
 
-	// 結果
-		System.out.println()
-
 }
