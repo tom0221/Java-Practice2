@@ -28,7 +28,6 @@ public class Hero {
 
 
 
-
 	public void sleep() {
 		this.hp = 100;// thisは自分人身のインスタンスという意味
 		System.out.println(this.name + "は、眠って回復した！");
