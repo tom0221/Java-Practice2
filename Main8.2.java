@@ -32,7 +32,5 @@ public class Main {
 		m1.run(); // お化けキノコA逃げる
 		m2.run(); // お化けキノコB逃げる
 		h.run(); // 勇者逃げる
-		
-
 	}
 }
