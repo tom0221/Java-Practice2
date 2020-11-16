@@ -1,3 +1,5 @@
+// (仮)下書き
+
 // コード8-1 mainメソッドを作る
 public class Main {
 	public static void main(String[] args) {
@@ -32,6 +34,6 @@ public class Main {
 		m1.run(); // お化けキノコA逃げる
 		m2.run(); // お化けキノコB逃げる
 		h.run(); // 勇者逃げる
-		
+
 	}
 }
