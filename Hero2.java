@@ -5,8 +5,14 @@ public class Hero {
 	int hp;
 
 	// 操作定義
+	public void sleep() {
+		this.hp = 100;
+		System.out.println(this.name + "は、眠って回復した！");
+	}
+
+
+
 	public void attack()
-	public void sleep()
 	public void sit(int sec)
 	public void slip()
 	public void run()
